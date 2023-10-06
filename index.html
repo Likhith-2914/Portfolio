@@ -42,11 +42,11 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item">
-            <a href="#work" class="nav__link">Work</a>
-          </li>
-
-          <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
+          </li>
+          
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Work</a>
           </li>
 
           <li class="nav__item">
@@ -70,6 +70,30 @@
 
   <main role="main">
 
+     <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Myself N V Sai Likhith, an enthusiastic developer. Currently persuing 4th year if Integrated Mtech @ IIIT-Bengaluru. Interested in developing 
+              full-stack projects by integrating AI. Participated in many hackathons and won a few :) If you see me playing chess, then I am free!
+            </p>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/mypic.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
@@ -78,6 +102,33 @@
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
+
+          <!-- Institute Academia -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Institute Academia</h3>
+              <p>
+                A database management system that keeps track of the data at an Institute. Data stored at MySQL server and operations done in SQL.
+              </p>
+              <ul class="work__list">
+                <li>SQL</li>
+                <li>Java</li>
+                <li>MySQL</li>
+              </ul>
+
+              <div class="work__links">
+<!--                 <a href="https://devfolio.co/projects/sycic-hack-2eaf" target="_blank" class="link__text">
+                  Submission <span>&rarr;</span>
+                </a> -->
+<!--                 <a href="https://github.com/Tarun-k-Gupta/Byte-Synergy-22" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
 
           <div class="work__box">
             <div class="work__text">
@@ -134,30 +185,7 @@
       </div>
     </section>
 
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Myself N V Sai Likhith, an enthusiastic developer. Studying CSE in IIIT-Bangalore. Interested in exploring
-              frontend and backend coding skills. Participated in many hackathons including ETHGlobal 2022. Love Reading books and
-              doing CP.
-            </p>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/mypic.jpeg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
+   
   <!-- ***** Contact ***** -->
 
   <section class="contact" id="contact">
